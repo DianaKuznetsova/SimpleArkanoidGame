@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="racketColor">@color/racketColor</item>
+        <item name="ballColor">@color/ballColor</item>
+        <item name="gameFieldColor">@color/gameField</item>
+
+    </style>
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="racketColor">@color/racketColor2</item>
+        <item name="ballColor">@color/ballColor2</item>
+        <item name="gameFieldColor">@color/gameField2</item>
+
+    </style>
+
+
+
+</resources>

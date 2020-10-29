@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b2ff59</color>
+    <color name="colorPrimaryDark">#7ecb20</color>
+    <color name="colorAccent">#616161</color>
+    <color name="racketColor">#ff7961</color>
+    <color name="ballColor">#f8bbd0</color>
+    <color name="gameField">#e7ff8c</color>
+
+    <color name="colorPrimary2">#616161</color>
+    <color name="colorPrimaryDark2">#373737</color>
+    <color name="colorAccent2">#b2ff59</color>
+    <color name="racketColor2">#725b53</color>
+    <color name="ballColor2">#bcaaa4</color>
+    <color name="gameField2">#8e8e8e</color>
+
+
+
+    <color name="menuColor">#b6b8c3</color>
+    <color name="textColor">#000000</color>
+</resources>

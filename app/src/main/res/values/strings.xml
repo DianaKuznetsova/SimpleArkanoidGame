@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="menu">Меню</string>
+    <string name="start">Начать</string>
+    <string name="start_again">Начать заново</string>
+    <string name="main_menu">Главное меню</string>
+    <string name="settings">Настройки</string>
+    <string name="theme">Тема оформления:</string>
+    <string name="light">Светлая</string>
+    <string name="dark">Темная</string>
+    <string name="language">Выбирите язык:</string>
+    <string name="ru">Русский</string>
+    <string name="en">Английский</string>
+    <string name="start_level">Уровень %1$d</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="racket_width">100dp</dimen>
+    <dimen name="racket_height">15dp</dimen>
+
+    <dimen name="ball_radius">10dp</dimen>
+    
+    <dimen name="racket_bottom_margin">20dp</dimen>
+    <dimen name="start_ball_speed">2dp</dimen>
+    <dimen name="auto_play_ball_speed">5dp</dimen>
+
+
+</resources>
