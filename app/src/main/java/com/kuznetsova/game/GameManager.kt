@@ -4,10 +4,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class GameManager(
-    private val listener: GameManager.OnGameEventListener, gameFieldView: GameFieldView,
-    racket: DrawableObject.Racket,
-    ball: DrawableObject.Ball) : BasaGameManager(gameFieldView, racket, ball){
+class GameManager (
+    private val listener: GameManager.OnGameEventListener, gameFieldView: GameFieldView
+   ) : BaseGameManager(gameFieldView), DeviceRotationManager.DeviceRotationListener{
 
 
     interface OnGameEventListener {
@@ -21,7 +20,7 @@ class GameManager(
 
 
     /**
-     * нормализованный угол от 0 до 1 ракетки
+     * нормализованный угол от 0 до 1
      * угол поворота устройства
      */
     var angelY: Float = 0f
@@ -56,13 +55,16 @@ class GameManager(
         GlobalScope.launch(Dispatchers.Main){listener.onGameLost()}
     }
 
-
     companion object {
         const val BALL_HIT_TO_SPEED_CHANGE = 5
         const val MIN_ANGLE = -20f
         const val MAX_ANGLE = 20f
         const val ANGLES_RANGE: Float = MAX_ANGLE - MIN_ANGLE
 
+    }
+
+    override fun onRotationChange(angle: Float) {
+        angelY = angle
     }
 }
 

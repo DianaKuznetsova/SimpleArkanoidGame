@@ -59,7 +59,7 @@ constructor(context: Context, attrs: AttributeSet? = null, defaultStyle: Int = 0
 
     }
 
-    fun getThemeColor(theme: Resources.Theme, @AttrRes attributeId: Int): Int {
+    private fun getThemeColor(theme: Resources.Theme, @AttrRes attributeId: Int): Int {
         val value = TypedValue()
         theme.resolveAttribute(attributeId, value, true)
         return value.data

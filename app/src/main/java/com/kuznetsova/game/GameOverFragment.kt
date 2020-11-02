@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 
 class GameOverFragment : DialogFragment() {
@@ -33,7 +32,8 @@ class GameOverFragment : DialogFragment() {
     private fun goToGame() {
         findNavController().navigate(R.id.action_gameOverFragment_to_gameFragment)
     }
-    private fun mainMenu(){
+
+    private fun mainMenu() {
         findNavController().navigate(R.id.action_gameOverFragment_to_mainMenuFragment)
     }
 }
